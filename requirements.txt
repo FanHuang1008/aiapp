@@ -1,3 +1,4 @@
+python3==3.10.10
 pillow==10.4.0
 torch==2.2.1
 torchvision==0.17.1
