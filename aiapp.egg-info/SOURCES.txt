@@ -2,6 +2,7 @@ README.md
 setup.py
 aiapp/__init__.py
 aiapp/cli.py
+aiapp/configs.py
 aiapp/data.py
 aiapp/main.py
 aiapp/model.py

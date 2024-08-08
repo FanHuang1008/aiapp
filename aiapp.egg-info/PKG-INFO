@@ -10,3 +10,7 @@ Requires-Dist: torchaudio==2.2.1
 Requires-Dist: timm==1.0.8
 Requires-Dist: imagenet-stubs@ git+https://github.com/nottombrown/imagenet-stubs.git@master
 Requires-Dist: six==1.16.0
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: pydantic-config==0.3.0
+Requires-Dist: pydantic_core==2.20.1
+Requires-Dist: pydantic-settings==2.4.0
