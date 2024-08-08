@@ -33,14 +33,14 @@ def get_requirements(fns, envsub: bool = False):
 
 
 setup(
-    name='aiapp_tutorial',
+    name='aiapp',
     description='Doing image classification using MobileNet',
     version='0.0.1',
-    # entry_points={
-    #     'console_scripts': [
-    #         'myaiapp = aiapp_tutorial.cli:cli',
-    #     ]
-    # },
+    entry_points={
+        'console_scripts': [
+            'aiapp = aiapp.cli:cli',
+        ]
+    },
     # extras_require={
     #     'test': get_requirements(['requirements/test.txt']),
     #     'build': get_requirements(['requirements/build.txt'], envsub=True),

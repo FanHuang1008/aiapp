@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiapp
+Version: 0.0.1
+Summary: Doing image classification using MobileNet
+Requires-Dist: python3==3.10.10
+Requires-Dist: pillow==10.4.0
+Requires-Dist: torch==2.2.1
+Requires-Dist: torchvision==0.17.1
+Requires-Dist: torchaudio==2.2.1
+Requires-Dist: timm==1.0.8
+Requires-Dist: imagenet-stubs@ git+https://github.com/nottombrown/imagenet-stubs.git@master
+Requires-Dist: six==1.16.0

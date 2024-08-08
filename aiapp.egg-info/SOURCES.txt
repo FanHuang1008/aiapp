@@ -1,0 +1,13 @@
+README.md
+setup.py
+aiapp/__init__.py
+aiapp/cli.py
+aiapp/data.py
+aiapp/main.py
+aiapp/model.py
+aiapp.egg-info/PKG-INFO
+aiapp.egg-info/SOURCES.txt
+aiapp.egg-info/dependency_links.txt
+aiapp.egg-info/entry_points.txt
+aiapp.egg-info/requires.txt
+aiapp.egg-info/top_level.txt
