@@ -8,6 +8,7 @@ from imagenet_stubs.imagenet_2012_labels import label_to_name
 class InferModel():
 
     def __init__(self, model_name: str):
+        # Todo: load local model (download the model to local first then load)
         model = timm.create_model(model_name, pretrained=True)
         self.model = model.eval()
         data_config = timm.data.resolve_model_data_config(model)

@@ -3,12 +3,14 @@ from .model import load_model
 from .data import read_image
 from .configs import cfg
 
-# cli argument: $ aiapp ./test.png
-img = read_image(cfg.infer_model_name)
-
 # configs: .env .ini .cfg <-- pydantic
 model = load_model('mobilenetv4_conv_small.e2400_r224_in1k', pretrained=True)
 
-# runtime interface: inputs -> (inference) -> output
-result = model.inference(img, topk=5)
-print(result)
+def inference(image_path: str, topk: int = 5):
+    # cli argument: $ aiapp ./test.png
+    img = read_image(cfg.infer_model_name)
+
+    # runtime interface: inputs -> (inference) -> output
+    result = model.inference(img, topk=5)
+
+    return result
